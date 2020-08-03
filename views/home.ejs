@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <link rel="stylesheet" href="../css/home.css"></link>
+  <title>Home</title>
+</head>
+<body>
+
+  <div id="font">
+    <h1>Welcome to home page</h1>
+    <h3><a href="/sendMessage">send message</a></h3>
+  </div>
+
+  <% for(let i = 0; i < message.length; i++){ %>
+    <p>.</p>
+    <div id="m">
+      <h3>Message: <%= message[i] %></h3>
+    </div>
+  <% } %>
+
+</body>
+</html>
